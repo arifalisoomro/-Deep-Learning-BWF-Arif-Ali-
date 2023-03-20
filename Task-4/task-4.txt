@@ -1,0 +1,8 @@
+🔴 Task 04
+
+Topics: Lists Introduction (Changing, Adding, Removing, Organizing, Indexing in Lists), 
+Looping in Python, Looping Over Lists, Avoiding Indentation Errors, Introducing Tuples, 
+List vs Tuple, Styling Your Code
+Resources: https://drive.google.com/file/d/12HEIuGU0NRgJutUQkMUhGKo-Nr_YWYdq/view?usp=share_link
+
+Use the same learning directions from Task - 03, perform exercises available after each topic.
