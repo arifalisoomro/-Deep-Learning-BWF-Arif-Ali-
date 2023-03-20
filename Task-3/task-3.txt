@@ -1,0 +1,10 @@
+
+🔴 Task 03
+
+Topics: Kicking Off with Python (Syntax, Variables, Datatypes, Code Execution)
+Resources: https://drive.google.com/file/d/12HEIuGU0NRgJutUQkMUhGKo-Nr_YWYdq/view?usp=share_link
+
+Directions: Learn about the specified topics mentioned above and then there are small 
+snippet boxes after each topic in the resource that are usually the exercises on what 
+you learnt. You are going to perform those exercises and make a folder or file with the 
+task name and push it to your GitHub repo which you just defined in last task.
