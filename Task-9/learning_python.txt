@@ -1,0 +1,5 @@
+In python you can do addition,subtraction,division,multiplication.
+In python i learn the concept of list.
+In python i learn the concept of Dictionary.
+In python i learn the concept of String.
+In python i learn the concept of Functions.
