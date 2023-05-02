@@ -1,0 +1,7 @@
+Supervised Learning: Supervised learning is a type of machine learning where the algorithm learns to map input data to desired output data by using labeled examples provided during training. The algorithm makes predictions on unseen data based on the patterns it learned from the labeled examples.
+
+Unsupervised Learning: Unsupervised learning is a type of machine learning where the algorithm learns to find patterns in data without being provided any labeled examples. The algorithm identifies similarities and differences in the data and groups similar data points together to form clusters or segments.
+
+Self-Supervised Learning: Self-supervised learning is a type of machine learning where the algorithm learns to predict missing or corrupted parts of the input data by using the remaining parts. It's a supervised learning technique that generates its own labels using the data itself, rather than relying on externally labeled data.
+
+Reinforcement Learning: Reinforcement learning is a type of machine learning where the algorithm learns to make decisions by interacting with an environment. The algorithm receives feedback in the form of rewards or punishments based on its actions and adjusts its behavior to maximize the reward over time.
