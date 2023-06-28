@@ -1,0 +1,20 @@
+When building a neural network, also known as an Artificial Neural Network (ANN), stacking up layers refers to the process of adding multiple layers to the network. Each layer consists of a set of neurons, also called units or nodes, and these layers are stacked one after another to create a deep neural network.
+
+Here are the steps involved in stacking up layers in a neural network:
+
+1. Input Layer:
+The input layer is the first layer of the neural network. It consists of neurons equal to the number of features in your input data. Each neuron in the input layer represents one feature of the input.
+
+2. Hidden Layers:
+Hidden layers are the layers between the input and output layers. They are responsible for learning and extracting relevant features from the input data. The number of hidden layers and the number of neurons in each hidden layer are hyperparameters that you need to define based on the complexity of your problem and the available resources.
+
+3. Activation Functions:
+Activation functions are applied to the outputs of neurons in each layer to introduce non-linearity into the network. Common activation functions include the Rectified Linear Unit (ReLU), Sigmoid, and Hyperbolic Tangent (tanh). Activation functions help the network learn complex patterns and make the network more expressive.
+
+4. Output Layer:
+The output layer is the final layer of the neural network. It produces the network's output, which depends on the problem you are solving. For example, in a binary classification problem, you might have a single neuron in the output layer with a sigmoid activation function. In a multi-class classification problem, the number of neurons in the output layer would match the number of classes, and a softmax activation function might be used.
+
+5. Connection Weights:
+Each connection between neurons in adjacent layers has an associated weight. These weights represent the strength of the connection between neurons and are adjusted during the training process to optimize the network's performance. The initial weights are usually assigned randomly, and the training process updates them iteratively using techniques like backpropagation.
+
+By stacking up multiple layers in a neural network, the network gains the ability to learn hierarchical representations of the input data, allowing it to capture complex patterns and make accurate predictions. Deep neural networks with several hidden layers have shown to be effective in solving a wide range of complex tasks, such as image and speech recognition, natural language processing, and more.

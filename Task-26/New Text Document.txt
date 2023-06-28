@@ -1,0 +1,37 @@
+
+1. Optimizers:
+Optimizers are algorithms used to update the parameters of a neural network during the training process. Their goal is to minimize the loss function by adjusting the weights and biases of the network. Commonly used optimizers include:
+
+   - Stochastic Gradient Descent (SGD): It updates the parameters based on the gradients of the loss function with respect to the parameters.
+   - Adam: A popular optimizer that combines adaptive gradient techniques with momentum. It adjusts the learning rate for each parameter individually.
+   - RMSprop: Another adaptive learning rate optimizer that uses a moving average of squared gradients to scale the learning rate.
+   - Adagrad: It adapts the learning rate for each parameter based on the historical gradients.
+
+The choice of optimizer depends on the specific problem and the characteristics of the dataset.
+
+2. Last-layer activations:
+The last-layer activations refer to the activation function applied to the output layer of a neural network. The activation function introduces non-linearity and determines the output format of the network. Commonly used activation functions for different types of problems include:
+
+   - Sigmoid: Used for binary classification problems where the output needs to be between 0 and 1.
+   - Softmax: Suitable for multi-class classification problems as it converts the network outputs into probabilities that sum up to 1.
+   - Linear: Used for regression tasks where the output can be any real value.
+   - ReLU (Rectified Linear Unit): Commonly used in hidden layers to introduce non-linearity and handle vanishing gradients.
+
+The choice of last-layer activation depends on the problem domain and the desired output format.
+
+3. Loss functions:
+Loss functions quantify the dissimilarity between the predicted outputs of a neural network and the ground truth labels or targets. They are used to guide the optimization process by measuring the error of the network's predictions. The choice of loss function depends on the type of problem:
+
+   - Mean Squared Error (MSE): Used for regression tasks, where the goal is to minimize the average squared difference between predicted and true values.
+   - Binary Cross-Entropy: Suitable for binary classification problems, where the goal is to minimize the cross-entropy between the predicted probabilities and the true binary labels.
+   - Categorical Cross-Entropy: Applied to multi-class classification problems when the labels are one-hot encoded. It measures the dissimilarity between predicted probabilities and the true labels.
+
+4. Evaluation metrics:
+Evaluation metrics provide quantitative measures to assess the performance of a trained neural network. The choice of evaluation metric depends on the problem at hand. Some common evaluation metrics include:
+
+   - Accuracy: Measures the proportion of correctly predicted samples out of the total number of samples.
+   - Precision, Recall, and F1-score: Used in binary or multi-class classification to evaluate the trade-off between precision (the proportion of true positive predictions) and recall (the proportion of true positive samples correctly predicted).
+   - Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE): Commonly used for regression tasks to quantify the average absolute or squared difference between predicted and true values.
+
+It's important to choose the appropriate evaluation metric that aligns with the problem's objectives and requirements.
+
